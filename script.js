@@ -6,4 +6,4 @@ frame.frameBorder = "0";
 frame.id = "chat-embed";
 let wrapper = document.getElementById("chat-embed-wrapper");
 wrapper.appendChild(frame);
-}
+})
