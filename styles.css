@@ -1,7 +1,7 @@
-.player{
+.box{
     float:left;
     margin-right:20px;
 }
-.chat{
+.clear{
     clear:both;
 }
