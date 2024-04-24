@@ -1,7 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="mystyle.css">
+<style>
+body:link {
+  color:black
+}
+.booked-weekday-name {
+  border-top: solid 1px #000;
+  border-left: solid 1px #000;
+  font-size:1.5rem;
+  padding-left: 2px;
+}
+
+.booked-week-date {
+  border-top: solid 5px #000;
+  border-left: solid 5px #000;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.booked-calendar-week, .booked-weekday-names {
+  display: flex;
+  flex-direction: row;
+}
+
+.booked-calendar-month {
+  border-right: solid 5px #000;
+  border-bottom: solid 5px #000;
+}
+
+.booked-day-events {
+  padding-top: .5em;
+}
+
+.booked-week-date-title {
+  font-size: 1.5rem;
+}
+
+.booked-calendar-event {
+  padding: 4px 10px;
+  display:block;
+  border-radius: 3px;
+}
+</style>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 </script>
 <link rel="stylesheet" href="styles.css">-->
